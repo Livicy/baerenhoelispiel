@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="407.0" prefWidth="717.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="27.0" layoutY="23.0" prefHeight="51.0" prefWidth="622.0" text="Hallo, Mein Name ist McGonagall. Ich kann dir den Zauberspruch erklären:">
+         <font>
+            <Font name="Javanese Text" size="18.0" />
+         </font></Label>
+      <Label layoutX="184.0" layoutY="82.0" prefHeight="18.0" prefWidth="408.0" text="Die Hypogrefenhöhlen findest du, indem du die Ungraden Würfel zählst." />
+      <Label layoutX="198.0" layoutY="100.0" prefHeight="18.0" prefWidth="392.0" text="Die Hypogreifen findest du heraus, indem du bei den ungraden Würfeln" />
+      <Label layoutX="211.0" layoutY="118.0" prefHeight="18.0" prefWidth="392.0" text="dir überlegst, welche Zahl auf der Unterseite des Würfels steht und diese" />
+      <Label layoutX="226.0" layoutY="136.0" prefHeight="18.0" prefWidth="386.0" text="Zahlen dann zusammenzählst. " />
+      <Label layoutX="226.0" layoutY="171.0" prefHeight="18.0" prefWidth="408.0" text="Ein Tipp: die Ober und Unterseite eines Würfels zusammengezählt ergibt" />
+      <Label layoutX="228.0" layoutY="189.0" prefHeight="18.0" prefWidth="392.0" text="immer 7." />
+      <Label layoutX="234.0" layoutY="254.0" prefHeight="18.0" prefWidth="392.0" text="Ich hoffe ich konnte dir helfen. Geh nun und Hilf Hagrid!">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <ImageView fitHeight="349.0" fitWidth="249.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@mcgonagall.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

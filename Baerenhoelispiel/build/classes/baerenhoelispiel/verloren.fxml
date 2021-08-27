@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="222.0" prefWidth="476.0" style="-fx-background-color: red;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="67.0" layoutY="46.0" prefHeight="55.0" prefWidth="342.0" text="Der Zauber ist fehlgeschlagen!">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="83.0" layoutY="111.0" prefHeight="22.0" prefWidth="310.0" text="Du hast damit einen Baum abgefackelt.">
+         <font>
+            <Font name="Candara Light" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="161.0" layoutY="152.0" prefHeight="20.0" prefWidth="154.0" text="Versuche es nochmals!">
+         <font>
+            <Font name="Calibri Light Italic" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
